@@ -1,19 +1,19 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "./Link";
 import { Container } from "./styles";
 
+
+//FIXME: Overflow components
 const Navigation = () => {
   return (
     <Container>
-      <ul>
-        <li>
-          <Link to="/c1">C1</Link>
-        </li>
-        <li>
-          <Link to="/c2">C2</Link>
-        </li>
-      </ul>
+      <Link path="/c1" title="Component 1" />
+      <Link path="/c2" title="Component 2" />
+
+
     </Container>
   );
 };
+
+
 export default Navigation;

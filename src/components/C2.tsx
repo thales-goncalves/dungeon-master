@@ -2,10 +2,8 @@ import React from 'react';
 
 // import { Container } from './styles';
 
-const Login =() => {
+export default function C2() {
   return (
-   <h1>Login</h1>
+    <h1>Ola C2</h1>
   );
 }
-
-export default Login;

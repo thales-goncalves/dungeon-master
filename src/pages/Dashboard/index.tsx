@@ -1,15 +1,25 @@
-import React from 'react';
-import NavigationBar  from './NavigationBar'
+import React from "react";
 
-import { Container } from './styles';
+import Header from "./Header";
+import Main from "./Main";
+import Navigation from "./Navigation";
+import Aside from "./Aside";
 
-const Dashboard =() => {
+import { Container, Content, Wrapper } from "./styles";
+
+const Dashboard = () => {
   return (
-   <>
-   <h1>Dashboard</h1>
-   <NavigationBar />
-   </>
+    <Container>
+      <Content>
+        <Wrapper>
+          <Header />
+          <Navigation />
+          <Main />
+          <Aside />
+        </Wrapper>
+      </Content>
+    </Container>
   );
-}
+};
 
 export default Dashboard;

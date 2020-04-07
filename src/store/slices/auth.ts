@@ -4,7 +4,6 @@ import { AuthData, AuthState } from "../types/auth";
 const initialState: AuthState = {
   loading: false,
   error: "",
-  id: "",
   refreshToken: "",
   token: "",
   user: {
@@ -12,7 +11,6 @@ const initialState: AuthState = {
     name: "",
   },
 };
-
 
 const authSlice = createSlice({
     name: 'auth',

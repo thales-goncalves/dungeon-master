@@ -4,7 +4,6 @@ export interface UserInfo {
 }
 
 export interface AuthData {
-  id: string;
   token: string;
   refreshToken: string;
   user: UserInfo;

@@ -17,7 +17,7 @@
     "@types/styled-components": "^5.0.1",
     "auth0-js": "^9.13.2",
     "auth0-lock": "^11.23.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "express": "^4.17.1",
     "express-jwt": "^6.0.0",
     "express-jwt-authz": "^2.3.1",
